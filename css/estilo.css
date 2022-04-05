@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* CSS Document */
+/*barra de navegación*/
+#plains{
+color:black;
+}
+#Us{
+    color: black;
+}
+#Contact{
+    color: black;
+}
+#singin{
+    font-size: large;
+}
+#navy{
+    box-shadow: 0 3px 5px rgb(0, 0, 0) 
+}
+#menu{
+    color:black;
+}
+.navbar-nav a{
+    color: black;
+}
+.logotipo{
+    width: 200px;
+    padding: 15px 0;
+}
+.login{
+    width: 180px;
+    margin: 10px 30px;
+}
+.nav-link{
+    color:black;
+    width: 180px;
+    font-size: 20px;
+    font-family: 'Georgia';
+}
+
+#Soluciones{
+    
+    height: auto;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+#sol{
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.708);
+    background-color: cadetblue;
+}
+#Soluciones h1{
+    
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Secular One';
+    color: #d0eef2
+}
+.descript{
+    font-size: 25px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}  
+#solt{
+    padding: 2rem;
+    background-color: cadetblue;
+
+}
+#ventajas{
+    height: auto;
+    padding-bottom: 1rem;
+    background-color: #95d5c5;  
+}
+#ventajas article{
+    padding: 1.2rem;
+    border: 5px solid #024a7a;
+    background-color: white;
+    border-radius: 5px; 
+}
+.carousel-inner{
+    max-width: auto; 
+    height: auto;
+}
+#cont{
+    background-color: #0098ac;
+    color: white;  
+}
+#correo{
+    color: white;
+}
+footer{
+	background-color: #32447a;
+	bottom: 0;
+	text-align: center;
+	color: white;
+}
+footer p {
+	margin: 0;
+}
+/*.carousel-item{
+    max-width: 100%;
+    height: auto;
+}*/

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/*CSS Document*/
+#price{
+    height: auto;
+    padding-bottom: 1rem;
+    background-color: #8a97d8;
+}
+#price article{
+    padding: 1.2rem;
+    border: 5px solid #024a7a;
+    background-color: white;
+    border-radius: 5px;
+}
