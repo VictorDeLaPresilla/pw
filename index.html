@@ -12,32 +12,25 @@
 </head>
 <body>
     <!--menu-->
-    <header class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #f7f7f7;" id="navy">
-        <div class="container-fluid">
-          <div class="container">
-            <a class="navbar-brand" href="index.html">
-              <img class="logotipo" src="imagenes/logo.PNG" alt="">
+     <header class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #f7f7f7;" id="navy">
+        <a class="navbar-brand" href="index.html">
+          <img class="logotipo" src="imagenes/logo.PNG" alt="">
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <a class="nav-link" id="plains" href="planes.html">planes y tarifas</a>
+            <a class="nav-link" id="Us" href="Nosotros.html">Nosotros</a>
+            <a class="nav-link" id="Contact" href="#">Contactos</a>
+            <a class="navbar-brand" href="#">
+              <!--img class="login" src="imagenes/iniciar sesión.PNG" alt=""-->
+              <button type="button" class="btn btn-outline-dark" id="singin">iniciar sesión</i></button>
             </a>
-          </div> 
-            <div class="container">  
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link" id="plains" href="planes.html">planes y tarifas</a>
-                  <a class="nav-link" id="Us" href="Nosotros.html">Nosotros</a>
-                  <a class="nav-link" id="Contact" href="#">Contactos</a>
-                  <a class="navbar-brand" href="#">
-                    <!--img class="login" src="imagenes/iniciar sesión.PNG" alt=""-->
-                    <button type="button" class="btn btn-outline-dark" id="singin">iniciar sesión</i></button>
-                  </a>
-                </div>
-              </div>
-            </div>
-    </nav> 
-        </header>
+          </div>
+      </nav>
+  </header>
     <!--carrousel-->
     <section style="margin-top: 130px">
       <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" style="margin-top: 90px">
